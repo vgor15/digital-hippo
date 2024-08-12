@@ -1,0 +1,6 @@
+const MaxWidthWrapper = ({
+    className,
+    children
+}) => {
+
+}

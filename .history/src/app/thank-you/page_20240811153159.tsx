@@ -1,0 +1,1 @@
+"LemonMilk Icon: A clean, modern sans-serif icon perfect for creating sleek and bold designs. With its geometric structure and sharp edges, LemonMilk Icon is ideal for branding, logos, and digital projects that require a strong visual impact."
