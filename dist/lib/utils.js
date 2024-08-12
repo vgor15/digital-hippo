@@ -31,11 +31,11 @@ function formatPrice(price, options) {
         style: "currency",
         currency: currency,
         notation: notation,
-        maximumFractionDigits: 2
+        maximumFractionDigits: 2,
     }).format(numericPrice);
 }
 function constructMetadata(_a) {
-    var _b = _a === void 0 ? {} : _a, _c = _b.title, title = _c === void 0 ? 'DigitalHippo - the marketplace for digital assets' : _c, _d = _b.description, description = _d === void 0 ? 'DigitalHippo is an open-source marketplace for high-quality digital goods.' : _d, _e = _b.image, image = _e === void 0 ? '/thumbnail.png' : _e, _f = _b.icons, icons = _f === void 0 ? '/favicon.ico' : _f, _g = _b.noIndex, noIndex = _g === void 0 ? false : _g;
+    var _b = _a === void 0 ? {} : _a, _c = _b.title, title = _c === void 0 ? "DigitalHippo - the marketplace for digital assets" : _c, _d = _b.description, description = _d === void 0 ? "DigitalHippo is an open-source marketplace for high-quality digital goods." : _d, _e = _b.image, image = _e === void 0 ? "/thumbnail.png" : _e, _f = _b.icons, icons = _f === void 0 ? "/favicon.ico" : _f, _g = _b.noIndex, noIndex = _g === void 0 ? false : _g;
     return __assign({ title: title, description: description, openGraph: {
             title: title,
             description: description,
@@ -45,12 +45,12 @@ function constructMetadata(_a) {
                 },
             ],
         }, twitter: {
-            card: 'summary_large_image',
+            card: "summary_large_image",
             title: title,
             description: description,
             images: [image],
-            creator: '@joshtriedcoding',
-        }, icons: icons, metadataBase: new URL('') }, (noIndex && {
+            creator: "@vyom",
+        }, icons: icons, metadataBase: new URL("https://digital-hippo-1cclu58w8-vgor15s-projects.vercel.app") }, (noIndex && {
         robots: {
             index: false,
             follow: false,
