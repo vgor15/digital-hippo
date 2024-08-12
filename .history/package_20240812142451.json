@@ -15,10 +15,8 @@
     "lint": "next lint"
   },
 
-  "resolutions": {
-    "cliui" : "7.0.2"
-  },
 
+  
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@payloadcms/bundler-webpack": "^1.0.7",

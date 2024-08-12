@@ -16,7 +16,7 @@
   },
 
   "resolutions": {
-    "cliui" : "7.0.2"
+    "cli"
   },
 
   "dependencies": {
