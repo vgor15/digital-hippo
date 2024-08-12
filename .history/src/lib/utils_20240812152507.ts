@@ -59,7 +59,7 @@ export function constructMetadata({
     },
     icons,
     metadataBase: new URL(
-      "https://digital-hippo-1cclu58w8-vgor15s-projects.vercel.app"
+      "digital-hippo-1cclu58w8-vgor15s-projects.vercel.app"
     ),
     ...(noIndex && {
       robots: {
